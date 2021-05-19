@@ -28,7 +28,6 @@
   },
   "require": {
       "php": "^7.3",
-      "brainsum/damopen": "^1.0.0",
       "composer/installers": "^1.11.0",
       "cweagans/composer-patches": "^1.7.0",
       "drupal/admin_toolbar": "^3.0.0",
@@ -62,8 +61,8 @@
               "web-root": "web/"
           },
           "file-mapping": {
-              "[web-root]/sites/default/settings.php": "composer/damopen/assets/settings.php",
-              "[web-root]/sites/default/services.yml": "composer/damopen/assets/services.yml",
+              "[web-root]/sites/default/settings.php": "composer/c2distro/assets/settings.php",
+              "[web-root]/sites/default/services.yml": "composer/c2distro/assets/services.yml",
               "[web-root]/robots.txt": false
           },
           "initial": {
@@ -92,7 +91,7 @@
           "post-create-project-cmd-message": [
               "<bg=blue;fg=white>                                                         </>",
               "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
-              "<bg=blue;fg=white>  from the brainsum/damopen-project template!               </>",
+              "<bg=blue;fg=white>  from the brainsum/c2distro-project template!               </>",
               "<bg=blue;fg=white>                                                         </>",
               "",
               "<bg=yellow;fg=black>Next steps</>:",
@@ -101,7 +100,7 @@
               "      composer remove drupal/core-project-message",
               "  * Update .env and drush/drush.yml as needed",
               "  * Fix directory permissions (e.g 770 with <web-server>:<current-user> for web/sites/default/files).",
-              "  * Install the site using the damopen profile: https://www.drupal.org/docs/8/install",
+              "  * Install the site using the c2distro profile: https://www.drupal.org/docs/8/install",
               "    * E.g for a local docker setup (for development): drush site-install --account-pass=123 damopen -y",
               "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
               "  * Get support: https://www.drupal.org/support",
