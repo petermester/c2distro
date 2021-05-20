@@ -21,7 +21,8 @@ install:
   - drupal:toolbar
   - drupal:update
   # Contrib.
-
+  - drupal:menu_ui
+  - drupal:field_ui
 # Required dependencies.
 dependencies:
   # Core.
