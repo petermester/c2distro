@@ -23,7 +23,8 @@ install:
   # Contrib.
   - drupal:menu_ui
   - drupal:field_ui
-  - drupal:default_content
+  # - drupal:default_content
+  - drupal:paragraphs
   # Custom
   # - default_content_test
 # Required dependencies.
