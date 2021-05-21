@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.page.field_lead
     - field.field.node.page.body
     - field.field.node.page.field_tags
     - node.type.page

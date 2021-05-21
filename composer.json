@@ -38,6 +38,7 @@
     "drupal/default_content": "^1.0@alpha",
     "drupal/exception_mailer": "^3.0@beta",
     "drupal/maillog": "^1.0@beta",
+    "drupal/paragraphs": "^1.12",
     "drupal/structure_sync": "^2.0",
     "drush/drush": "^10.5.0",
     "oomphinc/composer-installers-extender": "^2.0.0"
