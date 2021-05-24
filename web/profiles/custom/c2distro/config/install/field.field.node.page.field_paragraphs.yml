@@ -27,6 +27,9 @@ settings:
       accordion:
         enabled: true
         weight: 3
+      document:
+        weight: 5
+        enabled: false
       item:
         weight: 4
         enabled: false
