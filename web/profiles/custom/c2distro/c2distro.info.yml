@@ -25,6 +25,7 @@ install:
   - drupal:field_ui
   # - drupal:default_content
   - drupal:paragraphs
+  - drupal:classy_paragraphs
   # Custom
   # - default_content_test
 # Required dependencies.

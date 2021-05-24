@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f1f12f2fa6c333a970d9b47d8c60007",
+    "content-hash": "c48e9765727fe15b9a7b54f6806c5c14",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1447,6 +1447,56 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/adminimal_admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/adminimal_admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/classy_paragraphs",
+            "version": "1.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/classy_paragraphs.git",
+                "reference": "8.x-1.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/classy_paragraphs-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "02b60a17dd3785251287c83719ff425a98134680"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/paragraphs": "~1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1600324498",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Zugec",
+                    "homepage": "https://www.drupal.org/user/86970"
+                },
+                {
+                    "name": "i-trokhanenko",
+                    "homepage": "https://www.drupal.org/user/3546872"
+                }
+            ],
+            "description": "Allows an editor to apply a class to paragraphs.",
+            "homepage": "https://www.drupal.org/project/classy_paragraphs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/classy_paragraphs",
+                "issues": "https://www.drupal.org/project/issues/classy_paragraphs"
             }
         },
         {
@@ -12275,6 +12325,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/classy_paragraphs": 10,
         "drupal/default_content": 15,
         "drupal/exception_mailer": 10,
         "drupal/maillog": 10,

@@ -2,11 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.field_lead
     - field.field.node.page.body
+    - field.field.node.page.field_lead
+    - field.field.node.page.field_paragraphs
     - field.field.node.page.field_tags
     - node.type.page
   module:
+    - entity_reference_revisions
     - text
     - user
 id: node.page.default
@@ -21,11 +23,21 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
   links:
     weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_lead: true
   field_tags: true
   langcode: true
